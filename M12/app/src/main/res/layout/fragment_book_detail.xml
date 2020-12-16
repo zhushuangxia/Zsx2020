@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_book_detail"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/book_detail" />
+
+    <TextView
+        android:id="@+id/tv_book_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="官方正版 计算机网络 第7版第七版 谢希仁 计算机考研国家级规划指定教材 计算机基础技术原理教程 大学本科生研究生考研应用书籍"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>
